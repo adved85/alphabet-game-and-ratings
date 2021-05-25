@@ -1,0 +1,14 @@
+@font-face {
+    font-family: Monts-black; /* Имя шрифта */
+    src: url('../../../styles/fonts/montserrat/Montserrat-Black.ttf'); /* Путь к файлу со шрифтом */
+}
+
+@font-face {
+    font-family: Monts-medium; /* Имя шрифта */
+    src: url('../../../styles/fonts/montserrat/Montserrat-Medium.ttf'); /* Путь к файлу со шрифтом */
+}
+
+@font-face {
+    font-family: Monts-regular; /* Имя шрифта */
+    src: url('../../../styles/fonts/montserrat/Montserrat-Regular.ttf'); /* Путь к файлу со шрифтом */
+}

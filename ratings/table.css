@@ -1,0 +1,51 @@
+.table-hover>tbody>tr:hover {
+  background-color: #91b2bfb5;
+}
+
+.table {
+  text-shadow: 0px 2px 3px black;
+  font-weight: 600;
+}
+
+.table > thead {
+  background-color: #0000004f;
+  font-size: 16px;
+}
+.table > thead>tr>th {
+  text-align: center;
+  font-weight: 800;
+}
+
+.table .table-body tr td {
+  vertical-align: middle;
+  /* border: 1px solid red; */
+}
+
+.current {
+    background-color: #fd7e50ab;
+}
+.no-results {
+  background-color: #42bcd4;
+  font-weight: 600;
+  text-shadow: 1px 1px 2px #2d2b2b;
+}
+
+.upng {
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 50%;
+  vertical-align: middle;
+  float: left;
+  transform: translateX(2vw);
+  box-shadow: 0px 1px 1px 0px black;
+  filter: contrast(1.2)brightness(1.05);
+}
+
+.uname {
+  margin-right: 7px;
+  margin-top: 4px;
+  display: inline-block;
+}

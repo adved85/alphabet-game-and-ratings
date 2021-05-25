@@ -1,0 +1,23 @@
+styles
+images
+BetGame.js
+FetchNver.js
+MyClock.js
+Socketclient.js
+
+
+progress for multiuser (for each user false-steps)
+https://github.com/react-component/progress
+https://www.npmjs.com/package/rc-progress
+
+
+add no-server; no-user comments
+export helper-buttons to indi-component
+turn question on time_is_overed,
+fix bug on gameOver, this bug comes from betArray.length +1 (demo_alph = 1 or 0)
+
+removing "bet-that-user"-jsx block and solving FireWork show problem.
+  (setImageSource2- removed this function, and see FireWork)
+
+
+export HelperButtons from SocketClient-component

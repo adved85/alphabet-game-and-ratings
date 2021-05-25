@@ -1,0 +1,205 @@
+
+.grey-curtain {
+    display: block; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 10; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+  .select-for-show.red-border, .demo-modal.show,.ready-to-start  {
+        animation-name: opa;
+        animation-duration: 1s;
+  }
+  .bet-question.select-for-show.red-border {
+    background-color: #7a8047;
+  }
+  .red-border {
+    border: 3px solid red;
+    z-index: 15!important;
+    cursor: pointer;
+    position: relative;
+    filter: brightness(1.1);
+    background-color: cornsilk;
+  }
+  .yell {
+    border: 0px solid yellow;
+  }
+
+  .demo-modal {
+    border: 3px solid green;
+    background: #fdfafa;
+    position: relative;
+    width: 50%;
+    margin: 0 auto;
+    filter: drop-shadow(0px 5px 13px black);
+    box-shadow: inset 0 0 19px 1px grey;
+    border-radius: 24px;
+    border: 3px solid grey;
+  }
+.d-modal {
+    border: 3px solid green;
+    background: rgba(181, 181, 181, 0.5019607843137255);
+    position: relative;
+    width: 35%;
+    margin: 0 auto;
+    -webkit-filter: drop-shadow(0px 5px 13px black);
+    /* filter: drop-shadow(0px 5px 13px black); */
+    /* -webkit-box-shadow: inset 0 0 19px 1px grey; */
+    box-shadow: none;
+    border-radius: 24px;
+    border: 3px solid #31708f;
+}
+  .demo-modal.first{
+    top: 20%;
+    left: 2%;
+  }
+  .pos1 {
+    top:22%;
+  }
+  .pos2 {
+    top: 70vmin;
+    width: 46%;
+    left: 5%;
+  }
+  .select-for-show .bet-robot-image {
+    border-radius: 0;
+  }
+  .pos3 {
+    top: 16vmin;
+    right: -7%;
+    width: 80vmin;
+  }
+
+  .pos4 {
+    top: 25%;
+    width: 40%;
+    right: 5%;
+  }
+  .pos5 {
+    top: 24vmin;
+    left: 8%;
+    width: 60vmin;
+  }
+  .select-for-show .fired {
+    text-shadow: 0 0 17px #1b1212;
+  }
+  .pos6 {
+    top: 29vmin;
+    right: -2%;
+  }
+  .bet-keyboard.select-for-show {
+    width: 50%;
+  }
+  .pos7 {
+    top: 24vmin;
+    left: 6%;
+    width: 73vmin;
+  }
+  .pos8 {
+    top: 50%;
+  }
+.mouse-ads-wrapper{
+    left: 80%;
+    /*border: 1px solid blue;*/
+    min-height: 14vmin;
+    width: 25vmin;
+    /* background-color: beige; */
+    /* z-index: 20; */
+    position: relative;
+}
+.mouse-ads-wrapper div {
+      background-repeat: no-repeat;
+      background-size: 26%, 18%;
+      background-position: 0.5vmin 4vmin, 0.5vmin 1vmin;
+      /*border: 1px solid red;*/
+      width: 25vmin;
+      min-height: 14vmin;
+      text-align: center;
+      position: absolute;
+      color: #352d2d;
+      font-size: 3.2vmin;
+      text-shadow: 0px 0px 0px #403636;
+}
+
+
+  @keyframes opa {
+    from {opacity:0.4; border-color:transparent},
+    to {opacity:1}
+  }
+
+  @keyframes opa {
+    from {opacity:0.4; border-color:transparent},
+    to {opacity:1}
+  }
+
+
+
+/* header-body-footer */
+.modal-header {
+    padding: 6px 16px;
+    border-bottom: 1px dotted grey;
+    font-size: 5vmin;
+    color: #929090;
+}
+.modal-header h3 {
+  margin: 0 auto;
+  font-weight: bolder;
+  color: #000000b3;
+}
+.final h2, .first h2 {
+  color: #6b6767;
+  font-weight: bold;
+}
+.modal-body {
+  padding: 2px 16px;
+  color: grey;
+}
+
+.modal-footer {
+    padding: 6px 12px;
+    color: white;
+    border-top: 1px dotted grey;
+    text-align: center;
+}
+.demo-modal.final , .demo-modal.first {
+  animation: animatetop 1s;
+  animation-fill-mode: forwards;
+  -webkit-animation: animatetop 1s;  /* Safari 4.0 - 8.0 */
+  -webkit-animation-fill-mode: forwards; /* Safari 4.0 - 8.0 */
+}
+/* Add Animation */
+@-webkit-keyframes animatetop {
+    from {top:-15%; opacity:0}
+    to {top:50%; opacity:1}
+}
+
+@keyframes animatetop {
+    from {top:-15%; opacity:0}
+    to {top:20%; opacity:1}
+}
+
+/* The Close Button */
+.close-modal {
+    color: grey;
+    float: right;
+    font-size: 35px;
+    font-weight: bold;
+    line-height: 75%;
+}
+
+.close-modal:hover,
+.close-modal:focus {
+    color: #00bcd4;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.modal-close-button, .ready-to-start {
+  position: relative;
+}

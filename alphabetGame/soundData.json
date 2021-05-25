@@ -1,0 +1,19 @@
+{
+
+  "type": 2,
+  "name":"alphabet",
+
+  "64":{
+
+    "game_id":64,
+    "description":"alph_css_2",
+    "voiceNames":[
+      "css2_1.mp3",
+      "css2_2.mp3",
+      "css2_3.mp3",
+      "css2_4.mp3",
+      "css2_5.mp3",
+      "css2_6.mp3"
+    ]
+  }
+}

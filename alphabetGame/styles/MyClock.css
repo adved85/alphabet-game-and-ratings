@@ -1,0 +1,44 @@
+
+.bet-clock {
+    position: relative;
+    margin: auto;
+    width: 15vmin;
+    height: 15vmin;
+    display: table;
+}
+
+.canvasBack {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.myCanvas {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%) rotateZ(-90deg);
+    box-shadow: 0px 0px 12px #3e2e4cad;
+}
+.canvasBack , .myCanvas {
+  width: 100%;
+}
+
+.bet-seconds {
+  z-index: 10;
+  margin: 0 auto;
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  font-size: 1.5vmax;
+  font-weight: bold;
+  font-family: cursive;
+  color: #ffffff;
+  background-color: #3f51b5;
+}
+
+@media only screen and (max-width: 991px) {
+  .bet-clock {
+    width: 13vmin;
+    height: 13vmin;
+  }
+}
